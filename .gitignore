@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Data files - keep local only
+data/raw_papers/
+data/processed_chunks/
+data/faiss_index/
+data/metadata/
+
+# Vector/model/cache files
+*.faiss
+*.index
+*.pkl
+*.npy
+*.npz
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
