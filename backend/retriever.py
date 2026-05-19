@@ -3,9 +3,7 @@ import pickle
 import faiss
 import numpy as np
 
-from embedder import Embedder
-
-
+from backend.embedder import Embedder
 FAISS_INDEX_PATH = "data/faiss_index/research_papers.index"
 CHUNK_METADATA_PATH = "data/faiss_index/chunk_metadata.pkl"
 
