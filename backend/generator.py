@@ -61,7 +61,7 @@ def generate_answer(question: str, retrieved_chunks: list) -> str:
 
 
 if __name__ == "__main__":
-    from retriever import Retriever
+    from backend.retriever import Retriever
 
     retriever = Retriever()
 
